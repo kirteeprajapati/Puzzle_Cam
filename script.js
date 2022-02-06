@@ -70,6 +70,16 @@ class Piece{
     }
     draw(context){
     context.beginPath();
-    context.rect(this.x,this.y,this.width,this.height);    
+        
+    context.drawImage=(VIDEO, 
+        this.colIndex*VIDEO.videoWidth/SIZE.columns,
+        this.rowIndex*VIDEO.videoHeight/SIZE.rows,
+        VIDEO.videoWidth/SIZE.columns,
+        VIDEO.videoHeight/SIZE.rows,
+        this.x,
+        this.y,
+        this.width,
+        this.height);
+    context.rect(this.x,this.y,this.width,this.height);   
     }
 }

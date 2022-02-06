@@ -50,7 +50,10 @@ function updateCanvas(){
     window.requestAnimationFrame(updateCanvas);
 }
 
-function initializePieces(){
+function initializePieces(rowsmcols){
+    SIZE.rows=rows;
+    SIZE.columns=cols;
+    
     PIECES=[];
     for(let i=0; i<SIZE.rows; i++){
         for(let j=0; j<SIZE.columns; j++){

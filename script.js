@@ -9,10 +9,7 @@ function main() {
     CONTEXT=CANVAS.getContext("2d");
 
     let promise=navigator.mediaDevices.getUserMedia({
-        video:{
-            width:{exact:200},
-            height:{exact:400}
-        }
+        video:true
     });
     promise.then(function(signal){
         VIDEO=document.createElement("video");
@@ -47,4 +44,10 @@ function updateCanvas(){
         SIZE.x, SIZE.y,
         SIZE.width, SIZE.height);
     window.requestAnimationFrame(updateCanvas);
+}
+class Piece{
+    constructor(rowIndex, colIndex){
+        this.rowIndex=rowIndex;
+        this.colIndex=colIndex;
+    }
 }

@@ -19,7 +19,8 @@ function main() {
 
         VIDEO.onloadeddate=function(){
         handleResize();
-        window.addEventListener('resize', handleResize);  //event listner wich will resize it automatically
+        //window.addEventListener('resize', handleResize);  //event listner wich will resize it automatically
+        initializePieces(SIZE.rows,SIZE.columns);
         updateCanvas();
         }
     }).catch(function(err){
@@ -56,6 +57,12 @@ function initializePieces(){
         for(let j=0; j<SIZE.columns; j++){
             PIECES.push(new Piece(i,j));
         }
+    }
+}
+
+function randomizePieces(){
+    for(let i=0; i<PIECES.length, i++){
+        
     }
 }
 

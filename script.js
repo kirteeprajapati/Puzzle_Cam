@@ -61,7 +61,7 @@ function initializePieces(){
 }
 
 function randomizePieces(){
-    for(let i=0; i<PIECES.length, i++){
+    for(let i=0; i<PIECES.length ; i++){
         
     }
 }

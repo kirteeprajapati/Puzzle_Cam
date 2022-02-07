@@ -28,6 +28,11 @@ function main() {
     });
  
 }
+function addEventListener(){
+    CANVAS.addEventListener("mousedown",onMouseDown);
+    CANVAS.addEventListener("mousemove",onMouseMove);
+    CANVAS.addEventListener("mouseup",onMouseUp);
+}
 function handleResize(){
     CANVAS.width=window.innerWidth;
     CANVAS.height=window.innerHeight;

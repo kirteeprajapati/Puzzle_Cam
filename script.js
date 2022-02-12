@@ -82,8 +82,7 @@ class Piece{
     }
     draw(context){
     context.beginPath();
-        
-        
+       
     context.drawImage=(VIDEO, 
         this.colIndex*VIDEO.videoWidth/SIZE.columns,
         this.rowIndex*VIDEO.videoHeight/SIZE.rows,

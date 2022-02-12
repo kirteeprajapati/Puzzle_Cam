@@ -11,7 +11,7 @@ function main() {
 
     let promise=navigator.mediaDevices.getUserMedia({
         video:true
-    });
+    }); 
     promise.then(function(signal){
         VIDEO=document.createElement("video");
         VIDEO.srcObject=signal;

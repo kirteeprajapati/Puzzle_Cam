@@ -5,7 +5,7 @@ let SCALER=0.8;
 let SIZE={x:0, y:0, width:0, height:0, rows:3,columns:3};
 let PIECES=[];
 
-function main() {
+function main(){
     CANVAS=document.getElementById("myCanvas");
     CONTEXT=CANVAS.getContext("2d");
 
@@ -26,7 +26,6 @@ function main() {
     }).catch(function(err){
         alert("Camera error:" +err);
     });
- 
 }
 function addEventListener(){
     CANVAS.addEventListener("mousedown",onMouseDown);

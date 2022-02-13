@@ -25,7 +25,7 @@ function main(){
         }
     }).catch(function(err){
         alert("Camera error:" +err);
-    });
+    }); 
 }
 function addEventListener(){
     CANVAS.addEventListener("mousedown",onMouseDown);

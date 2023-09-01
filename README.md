@@ -39,3 +39,12 @@ This project offers an excellent opportunity to enhance your skills in various a
 Whether you're a budding developer looking to expand your skill set or a gamer seeking a unique and challenging experience, Puzzle-Cam offers a valuable learning opportunity and hours of entertainment.
 
 Start playing and exploring today!
+
+screenshorts
+![Lobby](https://github.com/kirteeprajapati/Puzzle_Cam/blob/main/assets/lobby.png)
+
+![Scattered](https://github.com/kirteeprajapati/Puzzle_Cam/blob/main/assets/scattered.png)
+
+![HandRaised](https://github.com/kirteeprajapati/Puzzle_Cam/blob/main/assets/Handraised.png)
+
+
